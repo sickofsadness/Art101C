@@ -1,0 +1,15 @@
+<DOCTYPE html>
+<html land=""en" dir=""ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title> Lab 2 - My First HTML </HTML></title>
+        <link rel=""stylesheet" href="../css/site.css">
+    </head>
+    <body>
+        <div id="content">
+            <h1> Hello world </h1>
+
+            <p> My partner is awesome. They made me tea. And toast with jam.</p>
+        </div>
+    </body>
+</html>
