@@ -1,5 +1,5 @@
 h1 {
-    color: orange;
+    color: cadetblue;
     font-size: 200%;
 }
 
@@ -10,7 +10,7 @@ p {
 }
 
 #content {
-    background-color:cornflowerblue
+    background-color:brown
     width 500px;
     min-height: 300px;
     padding: 10px;
