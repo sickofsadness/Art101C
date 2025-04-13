@@ -7,15 +7,18 @@ p {
     font-family: 'Lucida Sans Unicode';
     text-indent: 20px;
     margin-left: 10px;
-    background-color: blue;
 }
 
 #content {
-    background-color:cornflowerblue;
+    background-color:darkorange;
     width:500px;
     min-height: 300px;
     padding: 10px;
     margin: 10px;
     border: solid 1px
     font-size 20px;
+}
+
+html {
+    background-color: black;
 }
