@@ -7,3 +7,45 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  #folders {
+    display: block;
+    margin:auto;
+    width: 800px;
+  }
+
+  #html-webpage {
+    display:block;
+    margin:auto;
+    width: 800px;
+  }
+
+  #css-webpage{
+    display:block;
+    margin:auto;
+    width:800px;
+  }
+
+  #webpage{
+    display:block;
+    margin:auto;
+    width:800px
+  }
+
+  #html-lab3{
+    display:block;
+    margin:auto;
+    width:800px;
+  }
+
+  #css-lab3{
+    display:block;
+    margin:auto;
+    width:800px;
+  }
+
+  #lab3{
+    display:block;
+    margin:auto;
+    width:800px;
+  }
