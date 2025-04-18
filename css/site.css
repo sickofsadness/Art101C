@@ -1,5 +1,13 @@
 #my-portrait {
     width: 300px;
+    display: block;
+    margin:auto;
+    border:solid chocolate 30px
+}
+
+.minor-section{
+    background-color: chocolate;
+    margin-top: 5%;
 }
 
 h2 {
@@ -10,3 +18,11 @@ p {
     text-align: center;
 }
 
+#links{
+    background-color:chocolate;
+    margin-top: 5%;
+}
+
+html{
+background-color:cadetblue;
+}
