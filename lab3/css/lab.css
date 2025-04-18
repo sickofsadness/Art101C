@@ -11,41 +11,48 @@
   #folders {
     display: block;
     margin:auto;
+    margin-top: 5%;
     width: 800px;
   }
 
   #html-webpage {
     display:block;
     margin:auto;
+    margin-top: 5%;
     width: 800px;
   }
 
   #css-webpage{
     display:block;
     margin:auto;
+    margin-top: 5%;
     width:800px;
   }
 
   #webpage{
     display:block;
     margin:auto;
+    margin-top: 5%;
     width:800px
   }
 
   #html-lab3{
     display:block;
     margin:auto;
+    margin-top: 5%;
     width:800px;
   }
 
   #css-lab3{
     display:block;
     margin:auto;
+    margin-top: 5%;
     width:800px;
   }
 
   #lab3{
     display:block;
     margin:auto;
+    margin-top: 5%;
     width:800px;
   }
