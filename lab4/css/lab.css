@@ -7,3 +7,31 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+#pseudocode1 {
+  display:block;
+  margin:auto;
+  margin-top: 5%;
+  width: 800px;
+}
+
+#pseudocode2 {
+  display:block;
+    margin:auto;
+    margin-top: 5%;
+    width: 800px;
+}
+
+#pseudocode3 {
+  display:block;
+    margin:auto;
+    margin-top: 5%;
+    width: 800px;
+}
+
+#pseudocode4 {
+  display:block;
+    margin:auto;
+    margin-top: 5%;
+    width: 800px;
+}
