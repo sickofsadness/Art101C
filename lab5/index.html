@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 5 - Data Types and Variables</title>
+<!-- This title is used for tabs and bookmarks -->
+<title>Lab 5: Data Types and Variables</title>
 
-	<!-- Use UTF character set, a good idea with any webpage -->
-  	<meta charset="UTF-8" />
-	<!-- Set viewport so page remains consistently scaled w narrow devices -->
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
-	
-	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
-	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" defer></script>
+<!-- Use UTF character set, a good idea with any webpage -->
+  <meta charset="UTF-8" />
+<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Include a sitewide CSS file for consistent styling across the site -->
+<link rel="stylesheet" type="text/css" href="../css/site.css">
+<!-- Lab-specifc CSS file for any special styling of this particular page -->
+<link rel="stylesheet" type="text/css" href="css/lab.css">
+
+<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+<script type="text/javascript" src="./js/lab.js" defer></script>
 </head>
 <body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
-	<main id="content">
-		<section>
-			<h1>Lab 5 - Data Types and Variables
-			</h1>
-			<div class="minor-section">
+<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+<main id="content">
+<section>
+<h1>Lab 5: Data Types and Variables</h1>
+<div class="minor-section">
 					<h2>Challenge</h2>
 					<p>I couldn't get the code that shows in Canvas to work. Also the way that we did it in class,
 						I tried to implement it into my code on VSCode, but it still wouldn't work.
@@ -34,17 +33,44 @@
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>I couldn't get the document.ln function to work, and I tried WesBot and also ChatGPT. From
+						ChatGPT, I learned that apparently document.ln is supposed to erase what's on the webpage,
+					but then replaces it with what's written. I thought there may have been something in my HTML that wasn't working,
+				but it was just fine, and my js was linked correctly. So I ended up having to use a different function, similar to
+			what we learned in class on 4/24, to be able to show it on my webpage. But, then I started putting my pictures in,
+			and I realized that they weren't showing up. SO, I turned to ChatGPT to find out what was wrong. After a bunch of
+			back and forth, I finally tried comparing me and Jackie's code (which worked), with my own. At first I just put the entire block 
+			of text in, but then after I realized that wasn't working, I decided to examine specific parts of the code. I eventually realized it was the 
+			bottom half of my HTML code that wasn't working, and upon asking ChatGPT, it said I didn't have heading 3, which is where the Script Output 
+			was supposed to go. After seeing this, I realized that it was a seperate section UNDER the results section which is where the jsscript was
+			supposed to be showing up. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>I spent about a few hours on this assignment trying to get the code to work. I think upon further reflection, if I have more 
+						problems I should reread the steps on Canvas. I think I initially saw it, but then since I was already jumping around all the
+						steps, I forgot about it, and in my plight to debug and find what was wrong, I finally got it. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"></div>
+					<div id="output">
+						<img id = "js" src="img/lab5-js.png">
+							<p> This is my previous JavaScript code for Lab5 that didn't work when I added pictures and when I didn't have 
+								the section to output my jsscript. </p>
+						
+						<img id ="console" src="img/lab5-console.png">
+							<p> This is what my console shows on my webpage. </p>
+			
+
+					<h3>Script Output</h3>
+					<div class="output">
+						<script type="text/javascript" src="js/lab.js"></script>
+					</div>
+							
+
+					</div>
 					
 			</div>
 		</section>
@@ -56,7 +82,7 @@
 				<li><a href="../lab2/index.html"> Lab2: Your First HTML </a> </li>
 				<li><a href="../lab3/index.html"> Lab 3: File Structure </a> </li>
 				<li><a href="../lab4/index.html"> Lab 4: File Transfer </a> </li>
-				<li><a href="../lab5/index.html"> Lab 5: </a> </li>
+				<li><a href="../lab5/index.html"> Lab 5: Data Types and  Variables </a> </li>
 				<li><a href="../lab6/index.html"> Lab 6: </a></li>
 
 			</ul>

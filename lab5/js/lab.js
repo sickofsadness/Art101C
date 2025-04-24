@@ -2,6 +2,21 @@
 // Author: Lavinia Chen
 // Date: 4/24/2025
 
+// Example function (not used yet)
+function myFunction(param1, param2) {
+  // Just a placeholder
+  return param1 + param2;
+}
+
+// Main function
+function main() {
+  console.log("Main function started.");
+  // Other startup code here
+}
+
+// Let's go!
+main();
+
 // Define Variables
 let make = "Ford";
 let model = "Taurus";
@@ -21,25 +36,8 @@ console.log(ownIt);
 
 
 // output
-document.getElementById("output").innerHTML = `
-  Make: ${make}<br>
-  Model: ${model}<br>
-  Color: ${color}<br>
-  Year: ${year}<br>
-  Age: ${age} years<br>
-`;
-
-// Example function (not used yet)
-function myFunction(param1, param2) {
-  // Just a placeholder
-  return param1 + param2;
-}
-
-// Main function
-function main() {
-  console.log("Main function started.");
-  // Other startup code here
-}
-
-// Let's go!
-main();
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + "<br>");
