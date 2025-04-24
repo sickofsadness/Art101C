@@ -1,21 +1,45 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// lab.js - Lab 5
+// Author: Lavinia Chen
+// Date: 4/24/2025
 
-// Constants
+// Define Variables
+let make = "Ford";
+let model = "Taurus";
+let color = "Rusty";
+let year = 1995;
+let ownIt = false;
 
-// Functions
+// calculate
+let age = 2019 - year;
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
+console.log("Year: " + year)
+console.log("Make: " + make)
+console.log("Model: " + make)
+console.log("Color: " + color)
+console.log("Age: " + age)
+console.log(ownIt);
+
+
+// output
+document.getElementById("output").innerHTML = `
+  Make: ${make}<br>
+  Model: ${model}<br>
+  Color: ${color}<br>
+  Year: ${year}<br>
+  Age: ${age} years<br>
+`;
+
+// Example function (not used yet)
 function myFunction(param1, param2) {
-  // some code here
-  // return results;
+  // Just a placeholder
+  return param1 + param2;
 }
 
+// Main function
 function main() {
   console.log("Main function started.");
-  // the code that makes everything happen
+  // Other startup code here
 }
 
-// let's get this party started
+// Let's go!
 main();
