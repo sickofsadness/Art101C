@@ -7,3 +7,38 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+#js {
+  display:block;
+  margin:auto;
+  margin-top: 5%;
+  width: 800px;
+  }
+
+#correct-js {
+  display:block;
+  margin:auto;
+  margin-top: 5%;
+  width: 500px;
+  }
+
+#js {
+  display:block;
+  margin:auto;
+  margin-top: 5%;
+  width: 500px;
+  }
+
+#console {
+  display:block;
+  margin:auto;
+  margin-top: 5%;
+  width: 800px;
+  }
+
+#script {
+  display:block;
+  margin:auto;
+  margin-top: 5%;
+  width: 800px;
+  }
