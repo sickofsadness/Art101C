@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 6: Arrays and Objects, declaring variables
+// Author: Lavinia Chen
+// Date: 4/28/25
 
 // Constants
 
@@ -19,3 +19,27 @@ function main() {
 
 // let's get this party started
 main();
+
+
+//Define Variables
+myTransport = ["Ford Taurus", "bike", "rides from friends", "Lime Scooter"];
+
+
+//create an object for my main ride
+myMainRide = {
+  make: "Ford",
+  model: "Taurus",
+  color: "Rusty",
+  year: 1995,
+  //we can define a fuuncton within our object (called a method)
+  //that uses the value of year above (using this.year)
+  age:function() {
+    return 2022 - this.year;
+  }
+}
+
+//output
+document.writeln("Kinds of transportation I use:", myTransport, "</br>");
+//this little trick allows us to write an object too the document
+document.writeln("My Main RideL <pre>",
+  JSON.stringify(myMainRide, null, '\t'), "</pre>");
