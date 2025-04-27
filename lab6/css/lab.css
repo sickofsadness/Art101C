@@ -8,10 +8,30 @@
     background-color: #DDD8C4;
   }
 
-  
+#console {
+  display:block;
+  margin:auto;
+  margin-top: 5%;
+  width: 1100px;
+}
+
+#java {
+  display:block;
+  margin:auto;
+  margin-top: 5%;
+  width: 900px;
+  }
+
+#site {
+  display:block;
+  margin:auto;
+  margin-top: 5%;
+  width: 900px;
+  }
+
 #car {
   display:block;
   margin:auto;
   margin-top: 5%;
-  width: 500px;
+  width: 600px;
   }
