@@ -40,6 +40,6 @@ function sortUserName(){
 }  
 
 //output
-document.writeln("Here's the reversed name: ",
+document.writeln("Here's the sorted name: ",
     sortUserName(), "</br>");
 

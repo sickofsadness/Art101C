@@ -7,3 +7,10 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+#js {
+display:block;
+margin:auto;
+margin-top: 5%;
+width: 1100px;
+}
