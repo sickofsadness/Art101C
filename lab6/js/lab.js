@@ -34,7 +34,7 @@ myMainRide = {
   //we can define a fuuncton within our object (called a method)
   //that uses the value of year above (using this.year)
   age:function() {
-    return 2022 - this.year;
+    return 2025 - this.year;
   }
 }
 

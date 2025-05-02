@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 7 - Subject/Topic</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -12,37 +12,50 @@
 	<!-- Include a sitewide CSS file for consistent styling across the site -->
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link rel="stylesheet" type="text/css" href="lab.css">
 	
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+	<script type="text/javascript" src="lab.js" DEFER></script>
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 7 - Subject/Topic</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p> We were supposed to make a function that sorts the user input. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p> My Javascript wasn't showing up at first because the path wasn't correct in the HTML. Then, my JS wouldn't work
+						because I had mistyped something in my code which caused the function to not be called. This time I went to my live
+						server and looked at the console to see what was wrong. It told me that there was a typo in the 35th line and that it
+						couldn't get the Javascript because it wasn't properly linked in the HTML. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p> I tried to be more methodical about trying to fix my bugs, and checked the console to see where my problems were. It was
+						really helpful to see what line of code I had messed up on. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"></div>
+					<div id="output">
+						<img id = "js" src="img/lab7-js.png">
+						<p> This is a picture of my JavaScript. </p>
+					</div>
 			</div>
+
+			<div>
+				<h2>Script Output</h2>
+				<script src="lab.js"></script>
+			</div>
+		
 		</section>
 		<nav id="links">
 			<h3> Labs </h3>
@@ -54,6 +67,7 @@
 				<li><a href="../lab4/index.html"> Lab 4: File Transfer </a> </li>
 				<li><a href="../lab5/index.html"> Lab 5: </a> </li>
 				<li><a href="../lab6/index.html"> Lab 6: Arrays and Objects </a></li>
+				<li><a href="../lab7/index.html"> Lab 7: </a></li>
 
 			</ul>
 		</nav>
