@@ -14,3 +14,17 @@ margin:auto;
 margin-top: 5%;
 width: 1100px;
 }
+
+#input {
+    display:block;
+    margin:auto;
+    margin-top: 5%;
+    width: 1100px;
+    }
+
+#output {
+    display:block;
+    margin:auto;
+    margin-top: 5%;
+    width: 1100px;
+    }
