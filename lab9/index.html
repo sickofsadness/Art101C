@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 9 - Functions </title>
+	<title>Lab 9 - Libraries and jQuery </title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,32 +23,45 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 9 -  </h1>
-			<div class="minor-section">
+			<h1>Lab 9 - Libraries and jQuery  </h1>
+			<div class="minor-section" id="challenge">
+				
 					<h2>Challenge</h2>
-					<p>  </p>
+					<p> The challenge of this lab is to create buttons for the challenge, problems, and results section. </p>
 			</div>
 
-			<div class="minor-section">
+			<div class="minor-section" id="problems">
 					<h2>Problems</h2>
-					<p> </p>
+					<p> I had a problem where 2 buttons were showing up for each section. I tried to look and see if
+						there was anything in my JavaScript that was somehow causing two buttons to show up. When that
+						didn't work, I looked through the css and the html, and I realized because I copied the Lab code from 
+						Lab 7 to create Lab 9's template, there was a JS code that was already showing up after the results.
+						So, my JavaScript was running twice, and once I removed that last part in my HTML, only one button
+						started showing up. </p>
 			</div>
 
-			<div class="minor-section">
+			<div class="minor-section" id="reflection">
 					<h2>Reflection</h2>
-					<p>  </p>
+					<p> I feel really proud for what I manaegd to accomplish in my code. I also decided to play around with
+						the buttons and give them their own colors. I had a lot of fun clicking the buttons and seeing
+						what happened to the text afterwards. </p>
 			</div>
 
-			<div class="minor-section">
+			<div class="minor-section" id="results">
 					<h2>Results</h2>
+					<p> Click the buttons to see the results! </p>
+
+					<img id="html" src="imgs/lab9-html.png">
+					<p> This is a picture of my HTML code. </p>
+
+					<img id= "js" src="imgs/lab9-js.png">
+					<p> This is my JavaScript. </p>
+
+					<img id="css" src ="imgs/lab9-cs.png">
+					<p> This is my CSS code and the changes I made for each button. </p>
 					<div id="output">
 					
 					</div>
-			</div>
-
-			<div>
-				<h2>Script Output</h2>
-				<script src="lab.js"></script>
 			</div>
 		
 		</section>
@@ -64,6 +77,7 @@
 				<li><a href="../lab6/index.html"> Lab 6: Arrays and Objects </a></li>
 				<li><a href="../lab7/index.html"> Lab 7: Functions </a></li>
 				<li><a href="../lab8/index.html"> Lab 8: Anon Functions and Callbacks </a></li>
+				<li><a href="../lab9/index.html"> Lab 9: Libraries and jQuery </a></li>
 
 			</ul>
 		</nav>
