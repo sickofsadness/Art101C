@@ -1,0 +1,32 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+#user-name{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#html{
+    display:block;
+    margin:auto;
+    margin-top: 5%;
+    width: 500px;
+}
+
+#js{
+    display:block;
+    margin:auto;
+    margin-top: 5%;
+    width: 500px;
+}
+
+#site{
+    display:block;
+    margin:auto;
+    margin-top: 5%;
+    width: 500px;
+}
