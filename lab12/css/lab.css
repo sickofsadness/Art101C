@@ -1,0 +1,22 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+.element-fire {
+  color: red;
+}
+
+.element-water {
+  color: blue;
+}
+
+.element-earth {
+  color: green;
+}
+
+.element-air {
+  color: rgb(98, 158, 177);
+}
