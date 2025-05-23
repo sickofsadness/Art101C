@@ -1,0 +1,13 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+
+  }
+#output {
+  column-count: 3;         /* Set the number of columns */
+  column-gap: 20px;        /* Space between columns */
+  font-family: monospace;  
+  white-space: pre-wrap;   
+}

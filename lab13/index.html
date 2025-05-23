@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title> Lab 13 - Loops </title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1> Lab 13 - Loops </h1>
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p>We had to use Javascript to use a "for loop" which goes through each number until 200, and if they're multiple of 3, 5, and 7
+                        then they say Fizz! Buzz! and Boom! respectively. If there is a number that's both a multiple of 2 of the numbers, then 
+                        it prints a combination of words. </p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p>My code wasn't printing in the output in the beginning, and I realized it was because I had included
+                        the output into the loop, so it wasn't outside. After I moved the .html in the JS outside, it printed.
+                    </p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Reflection</h2>
+					<p>I had a bit of trouble trying to understand the live code in class, but after I took a picture of it and looked
+                        at it more, I understood the if, else if, and else function and the positions that they had to be in. It's 
+                        very reminiscent of what I remember learning in Python, as these looping functions were the only one I remember
+                        being able to figure out on my own. It's really cool to see my code working and being output onto
+                        my website. </p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+					<div id="output"></div>
+                    
+			</div>
+		</section>
+		<nav id="links">
+            <h2> Labs </h2>
+			<!-- Put links to other pages (including the homepage) here. -->
+            <li><a href="../index.html"> Lab 1: Home Page </a> </li>
+            <li><a href="../lab2/index.html"> Lab2: Your First HTML </a> </li>
+            <li><a href="../lab3/index.html"> Lab 3: File Structure </a> </li>
+            <li><a href="../lab4/index.html"> Lab 4: File Transfer </a> </li>
+            <li><a href="../lab5/index.html"> Lab 5: Data Types and  Variables </a> </li>
+            <li><a href="../lab6/index.html"> Lab 6: Arrays and Objects </a></li>
+            <li><a href="../lab7/index.html"> Lab 7: Functions </a></li>
+            <li><a href="../lab8/index.html"> Lab 8: Anon Functions and Callbacks </a></li>
+            <li><a href="../lab9/index.html"> Lab 9: Libraries and jQuery </a></li>
+            <li><a href="../lab10/index.html"> Lab 10: JavaScript for the Web </a></li>
+            <li><a href="../lab11/index.html"> Lab 11: JavaScript Events and Forms </a></li>
+            <li><a href="../lab12/index.html"> Lab 12: Conditionals </a></li>
+			<li><a href="../lab13/index.html"> Lab 13: Loops </a></li>
+		</nav>
+	</main>
+</body>
+</html>
