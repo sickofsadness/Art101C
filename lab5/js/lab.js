@@ -1,21 +1,6 @@
-// lab.js - Lab 5
+// lab.js - Lab 5 //
 // Author: Lavinia Chen
 // Date: 4/24/2025
-
-// Example function (not used yet)
-function myFunction(param1, param2) {
-  // Just a placeholder
-  return param1 + param2;
-}
-
-// Main function
-function main() {
-  console.log("Main function started.");
-  // Other startup code here
-}
-
-// Let's go!
-main();
 
 // Define Variables
 let make = "Ford";
