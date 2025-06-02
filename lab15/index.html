@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 12 - Conditionals </title>
+	<title>Lab 15 - AJAX</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -17,46 +17,40 @@
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+	<script type="text/javascript" src="js/lab.js" DEFER></script>
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 12 - Conditionals </h1>
+			<h1>Lab 15 - AJAX</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>In this Lab, we had to make an else if function to determine if the remainder was divisible by 4 to
-                        get 0 or if the remainder is 1-4 based on the number of letters submitted in the input box.
-                    </p>
+					<p>In this lab, we used API's in our website.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>At first I didn't have any text in my button, which just showed up as a small oval that I couldn't
-                        click. Then I realized I needed to add text to make it a clickable button. Then, after I finished
-                        my lab I wanted to make it so that each different element would have their own color when
-                        showing in the input. To do that, I had to change my code a bit and assign my objects to a 
-                        class, so that it was be easier to edit the color of the names. </p>
+					<p>For a bit, I couldn't get my image to pop up for some reason, so I had to
+                        go through my code again looking for the problem. I knew that it was probably a typo
+                    or something because the console wasn't saying that anything was wrong. I eventaully
+                    found out that I was referring to something incorrectly, and that I had mispelled something. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>I'm pretty proud of myself because I actually went a little bit farther beyond what was just asked of me and
-                        sprinkled in a little bit of CSS to add to my JS. But, that change made me change a bit about my JS but not
-                        too much. I think it adds a nice flare though.  </p>
+					<p>I actually found doing this assignment really fun because it was really cool to see the
+                        API in action. I wish I messed around a more with changing the size of the gif, but I can
+                        do that in my team project. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-                    <p> What Element are you in Avatar? </p>
-					<div id="output"></div>
-                    <input type="text"  id="input">
-                    <button id="button"> Click for your Element! </button>
+					<button id="sumbuton"> Press Me! </button>
+                        <div id="output"></div>
 			</div>
 		</section>
 		<nav id="links">
-            <h2> Labs </h2>
 			<!-- Put links to other pages (including the homepage) here. -->
             <li><a href="../index.html"> Lab 1: Home Page </a> </li>
             <li><a href="../lab2/index.html"> Lab2: Your First HTML </a> </li>
